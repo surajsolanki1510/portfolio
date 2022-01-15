@@ -1,0 +1,223 @@
+body,html{
+    margin:10px 0 10px 0 ;
+    height:100%;
+    width:100%;
+    background-color: rgb(235, 242, 255);
+    display:flex;
+    justify-content: center;
+
+}
+
+.main-box{  
+    display:flex;
+}
+
+.box-1{
+    height:175vh;
+    width:20vw;
+    border-right:1px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgb(4, 99, 4);
+}
+
+.circle{
+    margin-top:10px;
+    height:25%;
+    width:95%;
+    border-radius: 50%;
+    border:2px solid black;
+    margin-left:5px;
+}
+.heading{
+    font-family:'Times New Roman', Times, serif;
+    color:cornsilk;
+    height:px;
+    width:100%;
+    background-color: rgb(27, 179, 230);
+    text-align: center;
+}
+.unorder-list{
+    color:ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.position-center{
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+
+.font{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:ghostwhite;
+    margin-left:40px;
+    margin-bottom:25px;
+}
+
+.progress-circle-outer{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: transparent;
+    margin:0 0 0 20px;
+    display:inline-block
+}
+.progress-circle-inner{
+    background-color: white;
+}
+.box-2{
+    height:175vh;
+    width:35vw;
+    border-right:1px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+.name{
+    font-size: 60px;
+    font-family:sans-serif;
+    text-align: center;
+}
+.web-info{
+    font-size:20px;
+    font-family:monospace;
+    text-align: center;
+}
+.intro{
+    width:30vw;
+    text-align: center;
+    margin-left:30px;
+    font-weight: 700;
+}
+.heading-2{
+    font-family:'Times New Roman', Times, serif;
+    color:purple;
+    height:px;
+    width:100%;
+    background-color: rgb(27, 179, 230);
+    text-align: center;
+}
+.school-logo{
+    margin-left:70px;
+}
+.school{
+    display: flex;
+    justify-content: start;
+}
+
+.center{
+    text-align: center;
+    font-size:larger;
+    font-family: monospace;
+}
+.heading-2-margin{
+    margin-top:50px
+}
+.space-project{
+    height:30vh;
+    width:30vw;
+    border:2px solid black;
+    border-radius:25px;
+    margin-left: 35px;
+}
+
+.limca-book{
+    height:25%;
+    width:60%;
+    border-radius: 25px;
+    margin-left:100px;
+}
+
+/* responsive */
+/* responsive */
+/* responsive */
+@media (max-width:1024px){
+    .box-1{
+        width:30vw;
+        height:210vh;
+    }
+    .box-2{
+        width:50vw;
+        height:210vh;
+    }
+}
+
+/* responsive */
+/* responsive */
+/* responsive */
+@media (max-width:769px){
+    .main-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1{
+        width:50vw;
+        height:135vh;
+    }
+    .box-2{
+        width:50vw;
+        height:135vh;
+    }
+    .space-project{
+        height:20vh;
+        width:95%;
+        margin-left:5px;
+    }
+    .limca-book{
+        margin-left: 50px;
+    }
+    .circle{
+        margin-top:10px;
+        height:25%;
+        width:95%;
+        border-radius: 50%;
+        border:2px solid black;
+        margin-left:5px;
+    }
+    .intro{
+        width:40vw;
+        text-align: center;
+        margin-left:30px;
+        font-weight: 700;
+    }
+}
+
+/* responsive */
+/* responsive */
+/* responsive */
+@media (max-width:542px){
+    .name{
+        font-size: 35px;
+        font-family:sans-serif;
+        text-align: center;
+    }
+    .web-info{
+        font-size:13px;
+        font-family:monospace;
+        text-align: center;
+    }
+    .intro{
+        width:100%;
+        text-align: center;
+        font-weight:lighter;
+        margin:0;
+    }
+
+    .box-2{
+        height:190vh;
+        border-left:2px solid black;
+    }
+    .limca-book{
+        height:25%;
+        width:90%;
+        border-radius: 25px;
+        margin-left:15px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    .school-logo{
+        margin-left:10px;
+    }
+
+}

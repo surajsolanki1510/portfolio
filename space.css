@@ -1,0 +1,1580 @@
+html,body{
+    margin:0;
+}
+
+.parent-1{
+    height:100vh;
+    width:100%;
+    background-color: rgb(0, 0, 34);
+}
+
+.parent-child-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    height:120px;
+    width:px;
+    margin-top:30px; 
+    border:2px solid white;
+    color:white;
+    background-color: transparent;
+    font-size:110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name:hover{
+    box-shadow: 10px 10px 120px tomato;
+}
+
+.parent-child-2{
+    display: flex;
+}
+
+.astronaut-message{
+    color:white;
+    height:100px;
+    width:px;
+    padding:5px 5px 5px 5px;
+    border:2px solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.astronaut-message:hover{
+    box-shadow: 10px 10px 120px white;
+}
+
+.space-craft{
+    animation: craft 6s infinite ;
+    animation-timing-function:linear;
+}
+
+@keyframes craft{
+
+    0%{
+        position:absolute;
+        left:500px;
+        top:250px;
+    }
+
+    100%{
+        position:absolute;
+        left:1200px;
+        top:250px;
+        width:10px;
+    }
+
+} 
+
+.parent-2{
+    height:40vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-animation{
+    margin:0;
+    color:rgb(0, 37, 0);
+    font-size:40px;
+    margin-left: 200px;
+    width:0;
+    font-family:inherit;
+    overflow:hidden; 
+    white-space:nowrap; 
+    animation: text 10s infinite ease-in;
+    display:inline;
+
+
+}
+
+@keyframes text{
+    0%{
+        width:0px;
+    }
+    50%{
+        width:1300px;
+    }
+}
+
+.parent-3{
+    height:80vh;
+    width:100%;
+    background-color:rgb(227, 227, 252);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parent-3-child-1{
+    height:60vh;
+    width:500px;
+    background-color: white;
+    font-family: serif;
+    padding:20px;
+    border:2px solid black;
+}
+
+.parent-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    width:100%;
+}
+.hobbies{
+    height:65vh;
+    width:95%;
+    border:2px solid black;
+    border-radius: 25px;
+    background-size: 100% 100%;
+    animation:slider 10s infinite;
+    animation-timing-function:ease-in;
+
+}
+.hobbies:hover{
+    box-shadow: 5px 5px 50px blue;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url(pexels-designecologist-1779487.jpg);
+    }
+    20%{
+        background-image: url(pexels-dzenina-lukac-1005012.jpg);
+    }
+    40%{
+        background-image: url(pexels-markus-spiske-114296.jpg);
+    }
+    100%{
+        background-image: url(pexels-designecologist-1779487.jpg);
+    }
+
+}
+
+.parent-5{
+    height:100vh;
+    width:100%;
+    background-color: rgb(0, 0, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.secret{
+    height:100px;
+    width:650px;
+    margin-left:300px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secret:hover{
+    color:white;
+    height:100px;
+    width:650px;
+    border:2px solid white;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 25px;
+    padding:4px;
+}
+
+.rocket-div{
+    position:relative;
+}
+.smoke{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+
+.rocket{
+    animation:rocket 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:50px;
+        bottom:3500px;
+    }
+}
+
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+@media (max-width:1024px){
+
+    .parent-1{
+        height:100vh;
+    }
+    
+    .uranus{
+        height:250px;
+        width:250px;
+    }
+
+    .name{
+        height:90px;
+        width:px;
+        font-size: 70px;
+    }
+    .moon{
+        height:300px;
+        width:300px;
+    }
+
+    .parent-child-2{
+        margin-top:50px;
+    }
+    .astronaut-message{
+        height:90px;
+        width:px;
+        font-size: 60px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:300px;
+            top:200px;
+            width:100px;
+        }
+    
+        100%{
+            position:absolute;
+            left:700px;
+            top:200px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:500px;
+        }
+    }
+    .text-animation{
+        font-size: 15px;
+
+
+    }
+    .astronaut-1{
+        width:190px;
+    }
+    .parent-2{
+        height:25vh;
+    }
+
+    .parent-3{
+        height:100vh;
+    }
+    .human{
+        width:400px;
+    }
+
+    .parent-3-child-1{
+        height:80vh;
+        width:480px;
+    }
+
+    .astronaut-2{
+        height:350px;
+        width:250px;
+    }
+    .parent-4{
+        height:70vh;
+        width:100%;
+    }
+    .hobbies{
+        height:65vh;
+        width:95%;
+        border:2px solid black;
+        border-radius: 25px;
+        background-size: 100% 100%;
+        animation:slider 10s infinite;
+        animation-timing-function:ease-in;
+    
+    }
+    .secret{
+    height:50px;
+    width:350px;
+    margin-left:200px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:60px;
+        width:370px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:25px;
+    }
+    .smoke{
+        width:350px
+    }
+    .rocket{
+        width:100px
+    }
+    .parent-5{
+        height:90vh;
+    }
+}
+/* responsive */
+/* responsive */
+/* responsive */
+
+
+@media (max-width:769px) {
+
+    .parent-1{
+        height:70vh;
+    }
+    .uranus{
+        height:200px;
+        width:200px;
+    }
+
+    .name{
+        height:100px;
+        width:px;
+        font-size: 70px;
+        padding-left: 10px;
+    }
+    .moon{
+        height:250px;
+        width:250px;
+    }
+
+    .parent-child-2{
+        margin-top:250px;
+    }
+    .astronaut-message{
+        height:80px;
+        width:px;
+        font-size: 40px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:200px;
+            top:300px;
+            width:100px;
+        }
+    
+        100%{
+            position:absolute;
+            left:600px;
+            top:300px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:500px;
+        }
+    }
+    .text-animation{
+        font-size: 15px;
+
+
+    }
+    .astronaut-1{
+        width:225px;
+    }
+    .parent-2{
+        height:25vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:100vh;
+    }
+    .human{
+        width:300px;
+    }
+    .parent-3-child-1{
+        height:60vh;
+        width:500px;
+    }
+
+    .astronaut-2{
+        height:350px;
+        width:250px;
+    }
+    .secret{
+    height:50px;
+    width:350px;
+    margin-left:200px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:60px;
+        width:370px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:25px;
+    }
+    .smoke{
+        width:350px
+    }
+    .rocket{
+        width:100px
+    }
+    .parent-5{
+        height:80vh;
+    }
+}
+
+/* responsive */
+/* responsive */
+/* responsive */
+
+@media (max-width:630px) {
+
+    .parent-1{
+        height:100vh;
+    }
+    .uranus{
+        height:200px;
+        width:200px;
+    }
+
+    .name{
+        height:100px;
+        width:px;
+        font-size: 70px;
+        padding-left: 10px;
+    }
+    .moon{
+        height:210px;
+        width:210px;
+    }
+
+    .parent-child-2{
+        margin-top:100px;
+    }
+    .astronaut-message{
+        height:80px;
+        width:px;
+        font-size: 40px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:200px;
+            top:200px;
+            width:100px;
+        }
+    
+        100%{
+            position:absolute;
+            left:600px;
+            top:200px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:500px;
+        }
+    }
+    .text-animation{
+        font-size: 15px;
+        margin-left:30px;
+
+
+    }
+    .astronaut-1{
+        width:210px;
+    }
+    .parent-2{
+        height:25vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:120vh;
+    }
+    .human{
+        width:300px;
+    }
+    .parent-3-child-1{
+        height:70vh;
+        width:500px;
+    }
+
+    .astronaut-2{
+        height:350px;
+        width:250px;
+    }
+    .secret{
+    height:50px;
+    width:350px;
+    margin-left:200px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:60px;
+        width:370px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:25px;
+    }
+    .smoke{
+        width:350px
+    }
+    .rocket{
+        width:100px
+    }
+    .parent-5{
+        height:80vh;
+    }
+}
+/* responsive */
+/* responsive */
+/* responsive */
+
+
+@media (max-width:560px){
+
+    .parent-1{
+        height:70vh;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:60px;
+        width:px;
+        font-size: 50px;
+        padding-left: 2px;
+    }
+    .moon{
+        height:230px;
+        width:230px;
+    }
+
+    .parent-child-2{
+        margin-top:60px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:px;
+        font-size: 25px;
+        padding-top:5px;
+        padding-left:10px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:50px;
+            top:150px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:300px;
+            top:150px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 9px;
+        margin-left:150px;
+    }
+    .astronaut-1{
+        width:171px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:140vh;
+    }
+    .parent-3-child-1{
+        height:90vh;
+        width:350px;
+    }
+    .parent-4{
+        height:50vh;
+    }
+    .hobbies{
+        height:40vh;
+        width:80%;
+    }
+    .human{
+        width:300px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:100px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:40px;
+        width:230px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:15px;
+    }
+    .smoke{
+        width:250px
+    }
+    .rocket{
+        width:70px
+    }
+    .parent-5{
+        height:60vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:0px;
+        bottom:2500px;
+    }
+    }
+}
+/* responsive */
+/* responsive */
+/* responsive */
+
+@media (max-width:481px){
+
+    .parent-1{
+        height:70vh;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:60px;
+        width:px;
+        font-size: 50px;
+        padding-left: 2px;
+    }
+    .moon{
+        height:230px;
+        width:230px;
+    }
+
+    .parent-child-2{
+        margin-top:140px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:px;
+        font-size: 20px;
+        padding-top:5px;
+        padding-left:10px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:50px;
+            top:150px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:300px;
+            top:150px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 9px;
+        margin-left:150px;
+    }
+    .astronaut-1{
+        width:171px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:140vh;
+    }
+    .parent-3-child-1{
+        height:90vh;
+        width:350px;
+    }
+    .parent-4{
+        height:50vh;
+    }
+    .hobbies{
+        height:40vh;
+        width:80%;
+    }
+    .human{
+        width:300px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:100px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:40px;
+        width:230px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:15px;
+    }
+    .smoke{
+        width:250px
+    }
+    .rocket{
+        width:70px
+    }
+    .parent-5{
+        height:60vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:0px;
+        bottom:2500px;
+    }
+    }
+}
+
+/* responsive */
+/* responsive */
+/* responsive */
+
+@media (max-width:415px){
+
+    .parent-1{
+        height:70vh;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:60px;
+        width:px;
+        font-size: 50px;
+        padding-left: 2px;
+    }
+    .moon{
+        height:230px;
+        width:230px;
+    }
+
+    .parent-child-2{
+        margin-top:110px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:px;
+        font-size: 20px;
+        padding-top:5px;
+        padding-left:10px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:50px;
+            top:150px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:300px;
+            top:150px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 9px;
+        margin-left:100px;
+    }
+    .astronaut-1{
+        width:171px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        position:relative;
+        display: flex;
+        flex-direction: column-reverse;
+        height:140vh;
+    }
+    .parent-3-child-1{
+        height:95vh;
+        width:350px;
+    }
+    .parent-4{
+        height:35vh;
+    }
+    .hobbies{
+        height:30vh;
+        width:95%;
+    }
+    .human{
+        width:350px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:100px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:40px;
+        width:230px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:15px;
+    }
+    .smoke{
+        width:250px
+    }
+    .rocket{
+        width:70px
+    }
+    .parent-5{
+        height:60vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:0px;
+        bottom:3500px;
+    }
+    }
+}
+
+/* responsive */
+/* responsive */
+/* responsive */
+
+
+@media (max-width:380px){
+
+    .parent-1{
+        height:60vh;
+        width:100%;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:40px;
+        width:px;
+        font-size: 30px;
+        padding-left: 2px;
+    }
+    .moon{
+        height:150px;
+        width:150px;
+    }
+    .parent-child-1{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .parent-child-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:35px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:px;
+        font-size: 25px;
+        padding-top:5px;
+        padding-left:10px;
+        margin-left:70px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:20px;
+            top:120px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:200px;
+            top:120px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 9px;
+        margin-left:10px;
+    }
+    .astronaut-1{
+        width:140px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:170vh;
+    }
+    .parent-3-child-1{
+        height:120vh;
+        width:280px;
+    }
+    .parent-4{
+        height:35vh;
+    }
+    .hobbies{
+        height:30vh;
+        width:90%;
+    }
+
+    .human{
+        width:300px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:10px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:30px;
+        width:250px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:10px;
+        padding-top:0px;
+    }
+    .smoke{
+        width:150px
+    }
+    .rocket{
+        width:60px
+    }
+    .parent-5{
+        height:55vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:0px;
+        bottom:3000px;
+    }
+    }
+}
+/* responsive */
+/* responsive */
+/* responsive */
+
+@media (max-width:362px){
+
+    .parent-1{
+        height:60vh;
+        width:100%;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:40px;
+        width:px;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-left: 2px;
+    }
+    .moon{
+        height:150px;
+        width:150px;
+    }
+    .parent-child-1{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .parent-child-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:100px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:px;
+        font-size: 25px;
+        padding-top:5px;
+        padding-left:10px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:20px;
+            top:120px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:200px;
+            top:120px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 9px;
+        margin-left:10px;
+    }
+    .astronaut-1{
+        width:95px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:170vh;
+    }
+    .parent-3-child-1{
+        height:120vh;
+        width:90vw;
+    }
+    .parent-4{
+        height:50vh;
+    }
+    .hobbies{
+        height:40vh;
+        width:90%;
+    }
+
+    .human{
+        width:300px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:10px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:30px;
+        width:250px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:10px;
+        padding-top:0px;
+    }
+    .smoke{
+        width:150px
+    }
+    .rocket{
+        width:50px;
+    }
+    .parent-5{
+        height:55vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:0px;
+        bottom:3000px;
+    }
+    }
+}
+/* responsive */
+/* responsive */
+/* responsive*/
+
+@media (max-width:322px){
+
+    .parent-1{
+        height:60vh;
+        width:100%;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:40px;
+        width:px;
+        font-size: 30px;
+        padding-left: 2px;
+    }
+    .moon{
+        height:150px;
+        width:150px;
+    }
+    .parent-child-1{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .parent-child-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:50px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:px;
+        font-size: 25px;
+        padding-top:5px;
+        padding-left:10px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:20px;
+            top:120px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:200px;
+            top:120px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 9px;
+        margin-left:10px;
+    }
+    .astronaut-1{
+        width:95px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:190vh;
+    }
+    .parent-3-child-1{
+        height:140vh;
+        width:280px;
+    }
+    .parent-4{
+        height:35vh;
+    }
+    .hobbies{
+        height:30vh;
+        width:90%;
+    }
+
+    .human{
+        width:250px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:10px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:30px;
+        width:250px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:10px;
+        padding-top:0px;
+    }
+    .smoke{
+        width:150px
+    }
+    .rocket{
+        width:60px
+    }
+    .parent-5{
+        height:55vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:0px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:0px;
+        bottom:3000px;
+    }
+    }
+}
+
+/* responsive */
+/* responsive */
+/* responsive*/
+
+@media (max-width:282px){
+
+    .parent-1{
+        height:60vh;
+        width:100%;
+    }
+    .uranus{
+        height:0px;
+        width:0px;
+    }
+
+    .name{
+        height:40px;
+        width:px;
+        font-size: 30px;
+        padding-left: 2px;
+    }
+    .moon{
+        height:150px;
+        width:150px;
+    }
+    .parent-child-1{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .parent-child-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:50px;
+    }
+    .astronaut-message{
+        height:50px;
+        width:220px;
+        padding-left: 20px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    @keyframes craft{
+
+        0%{
+            position:absolute;
+            left:20px;
+            top:120px;
+            width:60px;
+        }
+    
+        100%{
+            position:absolute;
+            left:200px;
+            top:120px;
+            width:10px;
+        }
+    
+    } 
+
+    @keyframes text{
+        0%{
+            width:0px;
+        }
+        50%{
+            width:300px;
+        }
+    }
+    .text-animation{
+        font-size: 8px;
+        margin-left:10px;
+    }
+    .astronaut-1{
+        width:125px;
+    }
+    .parent-2{
+        height:20vh;
+    }
+
+    .parent-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height:190vh;
+    }
+    .parent-3-child-1{
+        height:140vh;
+        width:260px;
+    }
+    .parent-4{
+        height:30vh;
+    }
+    .hobbies{
+        height:25vh;
+        width:90%;
+    }
+
+    .human{
+        width:250px;
+    }
+
+    .astronaut-2{
+        height:250px;
+        width:150px;
+    }
+    .secret{
+    height:30px;
+    width:250px;
+    margin-left:10px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .secret:hover{
+        color:white;
+        height:30px;
+        width:250px;
+        border:2px solid white;
+        box-shadow: 1px 1px 10px white;
+        border-radius: 25px;
+        padding-left:10px;
+        padding-top:0px;
+    }
+    .smoke{
+        width:150px
+    }
+    .rocket{
+        width:60px
+    }
+    .parent-5{
+        height:55vh;
+    }
+
+    
+@keyframes rocket{
+    0%{
+        position: absolute;
+        right:10px;
+        bottom:0px;
+    }
+    100%{
+        position: absolute;
+        right:10px;
+        bottom:3000px;
+    }
+    }
+}
+
+
+
+
+
+
+
